@@ -1,0 +1,20 @@
+POST /feeds/api/users/default/playlists HTTP/1.1
+Host: gdata.youtube.com
+Content-Type: application/atom+xml
+Content-Length: CONTENT_LENGTH
+Authorization: Bearer ACCESS_TOKEN
+GData-Version: 2
+X-GData-Key: key=DEVELOPER_KEY
+
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom"
+    xmlns:yt="https://www.youtube.com/watch?v=sQUhYRvGNxc">
+  <title type="text">Sports Highlights Playlist</title>
+  <summary>A selection of sports highlights</summary>
+</entry>
+
+<entry xmlns="http://www.w3.org/2005/Atom"
+    xmlns:yt="https://www.youtube.com/watch?v=sQUhYRvGNxc">
+  <title type="text">Sports Highlights Playlist</title>
+  <summary>A selection of sports highlights</summary>
+</entry>
